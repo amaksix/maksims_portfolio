@@ -450,15 +450,6 @@ $(document).ready(function(){
     margin:111,
     
   });
-  owl.on('mousewheel', '.owl-stage', function (e) {
-    console.log(e);
-    if (e.originalEvent.deltaY>0) {
-        owl.trigger('next.owl');
-    } else {
-        owl.trigger('prev.owl');
-    }
-    e.preventDefault();
-    });
 });
 $('.projects-carousel-right-button').click(function() {
     owl.trigger('next.owl.carousel');
