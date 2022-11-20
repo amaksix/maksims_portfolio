@@ -1,19 +1,49 @@
 <!DOCTYPE html>
 <html>
+  <script src="nav-events.js"></script>
     <body class="body-class">
-        <div class="content">  
+      <div class="content">  
+        <div class="page-nav-bar">
+            <div class="nav-buttons-grid">
+                <div class="nav-buttons-left"><button class="nav-button" type="text" onclick=""> About me </button></div>
+                <div class="nav-buttons-center"> <button class="nav-button" type="text">Projects</button> </div>
+                <div class="nav-buttons-right"> <button class="nav-button" type="text">Contact</button> </div>
+            </div>         
         </div>
+        <div class="back-home-grid">
+            <div class="back-home-button">
+              <input type="image" src="images/Shared/Back_Home_Button.png" onclick="backHome()" onMouseOver="this.src='images/Shared/Hover_Back_Home_Button.png'" onMouseOut="this.src='images/Shared/Back_Home_Button.png'"  />
+            </div>
+            <div class="back-text">BACK</div>
+            <div class="directory">Home/About me</div>
+        </div>
+        <div class="page-header">
+          <img src="images/About me.png">
+        </div>
+      </div>
     </body>
+    <link rel='stylesheet' type='text/css' href='css/top-nav-bar.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-        .body-class{
+  .page-header{
+    margin-top: 23px;
+    margin-left: 811px;
+  }
+  .page-nav-bar{
+    background-image: url(images/Shared/Nav_Bar.png);
+  }
+    .body-class{
         background-image: url(images/Shared/About_Me_BG.png);
 		background-repeat: no-repeat;
         width: 1920px;
         height: 2986px;
+        margin: 0;
     }
     .content {
         width: 1920px;
-        height: 2986px;
+        height: 2268px;
         padding-top: 118px;
     }
 ::-webkit-scrollbar {
@@ -34,5 +64,10 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(64, 64, 64); 
 }
+
 </style>
+<script>
+
+</script>
+
 </html>

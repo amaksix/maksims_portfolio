@@ -5,11 +5,12 @@
 
 <script src="owlcarousel/jquery.min.js"></script>
 <script src="owlcarousel/owl.carousel.min.js"></script>
+<script src="nav-events.js"></script>
 <body class="body-class">
     <div class="content">      
     <div class="page-nav-bar">
         <div class="nav-buttons-grid">
-            <div class="nav-buttons-left"><button class="nav-button" type="text"> About me </button></div>
+            <div class="nav-buttons-left"><button class="nav-button" type="text" onclick="openAboutMe()"> About me </button></div>
             <div class="nav-buttons-center"> <button class="nav-button" type="text">Projects</button> </div>
             <div class="nav-buttons-right"> <button class="nav-button" type="text">Contact</button> </div>
         </div>         
@@ -37,7 +38,7 @@
                     Netherlands. Now I’m working for Qbit Latvia as Software Developer. My main responsibilities there are to develop web application using C#, ASP.NET and Blazor,
                     as well as developing and integrating widgets into application called Jedox using JavaScript and PHP.</p>
             </div>
-            <input type="image" src="images/Explore_More_Button.png"  onMouseOver="this.src='images/Hover_Explore_More_Button.png'" onMouseOut="this.src='images/Explore_More_Button.png'"/>
+            <input type="image" src="images/Explore_More_Button.png" onclick="openAboutMe()"  onMouseOver="this.src='images/Hover_Explore_More_Button.png'" onMouseOut="this.src='images/Explore_More_Button.png'"/>
         </div>
         <div class="about-me-right-container">
             <img src="images/ProfilePhoto.png">
@@ -112,7 +113,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel='stylesheet' type='text/css' href='css/index.css'>
-
+<link rel='stylesheet' type='text/css' href='css/top-nav-bar.css'>
+<link rel='stylesheet' type='text/css' href='css/top-nav-bar.css'>
 <script>
     var owl = null;
 $(document).ready(function(){

@@ -302,42 +302,6 @@ body {
     }
     .page-nav-bar{
         background-image: url(../images/NavBarPreset.png);
-		background-repeat: no-repeat;
-        width: 1494px;
-        height: 70px;
-        margin-left:213px;
-        padding-left:499px;
-    }
-    .nav-buttons-grid{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        width: 486px;
-        padding:0px;
-        padding-top:23px;
-    }
-    .nav-buttons-left{
-
-        text-align: left;
-        margin:0px;
-    }
-    .nav-button{
-        background: transparent;
-        border: 0;    
-        color: #FAFFFD;
-        font-family: 'Manrope', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-    }
-    .nav-button:hover{
-        color: #A9ACA9;
-    }
-    .nav-buttons-center{
-        text-align: center;
-    }
-
-    .nav-buttons-right{
-        text-align: right;
-        margin: 0px;
     }
     ::-webkit-scrollbar {
   width: 2px;
