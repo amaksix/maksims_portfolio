@@ -1,54 +1,7 @@
 body {
     margin: 0;
     }
-    .footer-grid-right-container{
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-    .button-footer-text:hover{
-        color: #FAFFFD;
-    }
-    .button-footer-text{
-        background: transparent;
-        border: 0;    
-        color:#A9ACA9;
-        font-family: 'Manrope', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        margin-top:33px;
-    }
-    .footer-text{
-        color:#A9ACA9;
-        font-family: 'Manrope', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        margin-top:33px;      
-    }
-    .footer-header{
-        color: #FAFFFD;
-        font-family: 'Manrope', sans-serif;
-        font-weight: 500;
-        font-size: 26px;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    .footer-grid-left-container{     
-        width:133px;
-    }
-    .footer-grid{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        margin-left:631px;
-        width:654px;
-    }
-    .footer{
-        background-image: url(../images/Footer.png);
-        background-repeat: no-repeat;
-        width: 1920px;
-        height: 320px;
-        margin-top: 217px;      
-        padding-top: 126px;
-    }
+   
       .message-input{
         margin-top:33px;
         width:420px;

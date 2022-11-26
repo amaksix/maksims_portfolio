@@ -41,7 +41,7 @@
             <input type="image" src="images/Explore_More_Button.png" onclick="openAboutMe()"  onMouseOver="this.src='images/Hover_Explore_More_Button.png'" onMouseOut="this.src='images/Explore_More_Button.png'"/>
         </div>
         <div class="about-me-right-container">
-            <img src="images/ProfilePhoto.png">
+            <img src="images/Shared/ProfilePhoto.png">
         </div>
         
     </div>
@@ -92,7 +92,7 @@
         <div class="footer-grid">
             <div class="footer-grid-left-container">
                 <p class="footer-header">Navigation</p>
-                <button class="button-footer-text" type="text">About me</button>
+                <button class="button-footer-text" type="text" onclick="openAboutMe()">About me</button>
                 <button class="button-footer-text" type="text">Projects</button>
                 <button class="button-footer-text" type="text">Contact</button>
             </div>
@@ -112,9 +112,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
+
 <link rel='stylesheet' type='text/css' href='css/index.css'>
+<link rel='stylesheet' type='text/css' href='css/footer.css'>
 <link rel='stylesheet' type='text/css' href='css/top-nav-bar.css'>
-<link rel='stylesheet' type='text/css' href='css/top-nav-bar.css'>
+<style>
+    .footer{
+        background-image: url(images/Footer.png);
+        background-repeat: no-repeat;   
+        margin-top: 217px;    
+    }
+</style>
 <script>
     var owl = null;
 $(document).ready(function(){
