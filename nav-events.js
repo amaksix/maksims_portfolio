@@ -4,3 +4,6 @@ function openAboutMe() {
 function backHome(){
     window.location.href="index.html";  
 };
+function openProjects(){
+    window.location.href="projects.html";  
+};
