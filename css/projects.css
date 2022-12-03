@@ -42,7 +42,7 @@
     margin-left: 213px;
     display: grid;
     grid-template-columns: auto auto;
-    width: 1382px;
+    width: 1402px;
 }
 .image-left-orientated{
     margin-bottom: 196px;
@@ -67,7 +67,7 @@
     grid-template-columns: auto;
     margin-top: 83px;
     height: 284px;
-    width: 308px;
+    width: 328px;
 }
 .image-left-orientated-header{
     color:#FAFFFD;
