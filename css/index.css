@@ -232,12 +232,12 @@ body {
         font-family: 'Manrope', sans-serif;
         font-weight: 300;
         font-size: 18px;
-        margin:4px;
-        padding:0px;
+        line-height: 30px;
     }
     .about-text-div{
         margin-top:305px;
         margin-left:1286px;
+       
     }
     .body-class{
         width: 1920px;
