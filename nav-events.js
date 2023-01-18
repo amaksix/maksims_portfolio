@@ -11,3 +11,9 @@ function openProjects(){
 function openAggressionTraining(){
     window.location.href="aggression-training.html";  
 };
+function openSonarSight(){
+    window.location.href="sonar-sight.html";  
+};
+function openSpaceWind(){
+    window.location.href="space-wind.html";  
+};
