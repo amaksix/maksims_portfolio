@@ -17,3 +17,6 @@ function openSonarSight(){
 function openSpaceWind(){
     window.location.href="space-wind.html";  
 };
+function openZoomCharts(){
+	window.location.href="zoom-charts.html";
+}
