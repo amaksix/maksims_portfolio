@@ -7,7 +7,7 @@
             <div class="nav-buttons-grid">
                 <div class="nav-buttons-left"><button class="nav-button" type="text" onclick="openAboutMe()"> About me </button></div>
                 <div class="nav-buttons-center"> <button class="nav-button" type="text" onclick="openProjects()">Projects</button> </div>
-                <div class="nav-buttons-right"> <button class="nav-button" type="text">Contact</button> </div>
+                <div class="nav-buttons-right"> <button class="nav-button" type="text"  onclick="contactMe()">Contact</button> </div>
             </div>         
         </div>
         <div class="back-home-grid">
@@ -73,7 +73,7 @@
                   <p class="footer-header">Navigation</p>
                   <button class="button-footer-text" type="text" onclick="openAboutMe()">About me</button>
                   <button class="button-footer-text" type="text" onclick="openProjects()">Projects</button>
-                  <button class="button-footer-text" type="text">Contact</button>
+                  <button class="button-footer-text" type="text"  onclick="contactMe()">Contact</button>
               </div>
               <div>
                   <p class="footer-header">Contacts</p>
@@ -82,7 +82,7 @@
               </div>
               <div class="footer-grid-right-container">
                   <input type="image" src="images/GitHub_Button.png"  onMouseOver="this.src='images/Hover_GitHub_Button.png'" onMouseOut="this.src='images/GitHub_Button.png'"  />
-                  <input type="image" src="images/LinkedIn_Button.png"  onMouseOver="this.src='images/Hover_LinkedIn_Button.png'" onMouseOut="this.src='images/LinkedIn_Button.png'"  />
+                  <input type="image" src="images/LinkedIn_Button.png" onclick="openLinkedIn()" onMouseOver="this.src='images/Hover_LinkedIn_Button.png'" onMouseOut="this.src='images/LinkedIn_Button.png'"  />
               </div>
             </div>
       </div>
