@@ -108,10 +108,11 @@ body {
     }
     .contact-me-anchor{
         margin-top: 138px;
+        
     }
     .contact-grid{
         margin:0px;
-        margin-top:200px;
+        margin-top:180px;
         margin-left:519px;
         display: grid;
         grid-template-columns: auto;

@@ -20,6 +20,9 @@ function openSpaceWind(){
 function openZoomCharts(){
 	window.location.href="zoom-charts.html";
 }
+function openRemoteAssist(){
+	window.location.href="remote-assist.html";
+}
 function contactMe(){
 	window.location.href="index.html#contact-me-anchor";
 }
