@@ -61,3 +61,11 @@
     margin-top: 5px;
     white-space: nowrap;
 }
+.bg-image{
+    position: absolute;
+    width: 538.34px;
+    height: 548.97px;
+    left: 1455px;
+    top: -0.49px;
+    z-index: -1;
+}

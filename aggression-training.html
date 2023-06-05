@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <script src="nav-events.js"></script>
+  <script src="nav-events.js?v=1"></script>
+  <script src="loader.js"></script>
+  <link rel='stylesheet' type='text/css' href='css/loader.css?v=1'>
+  <div class="loader"></div>
+  <div class="bg-image"> 
+    <img src="images/Shared/HeaderBG.png">
+  </div>
     <body class="body-class">
       <div class="content">  
         <div class="page-nav-bar">
@@ -60,8 +66,8 @@
             My impact
           </p>
           <p class="centered-text-text">
-            During this project unfortunately there was not really a lot of programming work being involved, so not all of<br>
-            the tasks which i did where programming related. So what i did for this project was:<br>
+            During this project unfortunately there was not really a lot of programming work being involved, so not all of
+            the tasks which i did where programming related. So what i did for this project was:
             Dialogue tree scripting<br>
             UI implementation and scripting<br>
             Lightning setup<br>
@@ -81,10 +87,10 @@
               <div>
                   <p class="footer-header">Contacts</p>
                   <p class="footer-text">amaksix@inbox.lv</p>
-                  <p class="footer-text">+37128227496</p>
+                  <p class="footer-text">amaksix@gmail.com</p>
               </div>
               <div class="footer-grid-right-container">
-                  <input type="image" src="images/GitHub_Button.png"  onMouseOver="this.src='images/Hover_GitHub_Button.png'" onMouseOut="this.src='images/GitHub_Button.png'"  />
+                  <input type="image" src="images/GitHub_Button.png" onclick="openGitHub()"  onMouseOver="this.src='images/Hover_GitHub_Button.png'" onMouseOut="this.src='images/GitHub_Button.png'"  />
                   <input type="image" src="images/LinkedIn_Button.png" onclick="openLinkedIn()" onMouseOver="this.src='images/Hover_LinkedIn_Button.png'" onMouseOut="this.src='images/LinkedIn_Button.png'"  />
               </div>
             </div>
@@ -92,7 +98,7 @@
     </body>
     <link rel='stylesheet' type='text/css' href='css/top-nav-bar.css'>
     <link rel='stylesheet' type='text/css' href='css/footer.css'>
-    <link rel='stylesheet' type='text/css' href='css/agression-training.css'>
+    <link rel='stylesheet' type='text/css' href='css/projects-pages.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">

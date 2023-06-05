@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <script src="nav-events.js"></script>
+  <script src="nav-events.js?v=1"></script>
+  <script src="loader.js"></script>
+  <link rel='stylesheet' type='text/css' href='css/loader.css?v=1'>
+
     <body class="body-class">
-      <div class="content">  
-        <div class="page-nav-bar">
+      <div class="loader"></div>
+      <div class="content">
+        <div class="bg-image"> 
+          <img src="images/Shared/HeaderBG.png">
+        </div>
+        <div class="page-nav-bar">  
             <div class="nav-buttons-grid">
                 <div class="nav-buttons-left"><button class="nav-button" type="text" onclick="openAboutMe()"> About me </button></div>
                 <div class="nav-buttons-center"> <button class="nav-button" type="text" onclick="openProjects()">Projects</button> </div>
                 <div class="nav-buttons-right"> <button class="nav-button" type="text"  onclick="contactMe()">Contact</button> </div>
-            </div>         
+            </div>           
         </div>
         <div class="back-home-grid">
             <div class="back-home-button">
@@ -23,7 +30,7 @@
 
         <div class="image-left-orientated">
           <div class="image-left-orientated-image">
-            <img width="920" height="466" src="images/Projects/Zoom_Charts/Zoom_Charts_3.png">
+            <img width="920" height="466" src="images/Projects/Zoom_Charts/Zoom_Charts_3.PNG">
           </div>
           <div class = "image-left-orientated-text-container">
               <p class ="image-left-orientated-header">
@@ -45,7 +52,7 @@
               As the result I developed fully working dashboard using demo database available in Jedox. All dashboard elements are dependable on each other and interactable. This demo dashboard was used for promo video which was used in promo campaign for both ZoomCharts and Qbit. You can check it yourself in video bellow.   </p>
           </div>       
           <div class="image-right-orientated-image">
-            <img width="920" height="466" src="images/Projects/Zoom_Charts/ZoomCharts4.png">
+            <img width="920" height="466" src="images/Projects/Zoom_Charts/ZoomCharts4.PNG">
           </div>
           
         </div>
@@ -77,10 +84,10 @@
               <div>
                   <p class="footer-header">Contacts</p>
                   <p class="footer-text">amaksix@inbox.lv</p>
-                  <p class="footer-text">+37128227496</p>
+                  <p class="footer-text">amaksix@gmail.com</p>
               </div>
               <div class="footer-grid-right-container">
-                  <input type="image" src="images/GitHub_Button.png"  onMouseOver="this.src='images/Hover_GitHub_Button.png'" onMouseOut="this.src='images/GitHub_Button.png'"  />
+                  <input type="image" src="images/GitHub_Button.png" onclick="openGitHub()"  onMouseOver="this.src='images/Hover_GitHub_Button.png'" onMouseOut="this.src='images/GitHub_Button.png'"  />
                   <input type="image" src="images/LinkedIn_Button.png" onclick="openLinkedIn()"  onMouseOver="this.src='images/Hover_LinkedIn_Button.png'" onMouseOut="this.src='images/LinkedIn_Button.png'"  />
               </div>
             </div>
@@ -88,7 +95,7 @@
     </body>
     <link rel='stylesheet' type='text/css' href='css/top-nav-bar.css'>
     <link rel='stylesheet' type='text/css' href='css/footer.css'>
-    <link rel='stylesheet' type='text/css' href='css/zoom-charts.css'>
+    <link rel='stylesheet' type='text/css' href='css/projects-pages.css?=v1'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">

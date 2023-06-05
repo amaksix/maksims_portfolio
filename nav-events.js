@@ -30,6 +30,10 @@ function openLinkedIn(){
 	window.open(
         "https://www.linkedin.com/in/maksims-terescuks-8b568a191", "_blank");
     }
+function openGitHub(){
+    window.open(
+        "https://github.com/amaksix", "_blank");
+    }
 function sendEmail()
 {
     var emailName = document.getElementById("Email Name").value;

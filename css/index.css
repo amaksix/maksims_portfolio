@@ -148,7 +148,7 @@ body {
         margin-left: 535px;
     }
     .carousel-element-text{
-        color:#404040;
+        color:#1D1E18;
         font-family: 'Manrope', sans-serif;
         font-weight: 300;
         font-size: 18px;
@@ -161,7 +161,7 @@ body {
     .carousel-element-header{
         color: #1D1E18;
         font-family: 'Manrope', sans-serif;
-        font-weight: 500;
+        font-weight: bold;
         font-size: 26px;
         margin: 0;
         margin-top:55px;
