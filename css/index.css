@@ -2,7 +2,10 @@
 body {
     margin: 0;
     }
-   
+    @font-face {
+        font-family: HeaderFont;
+        src: url(../Fonts/Sceageus.otf);
+      }
       .message-input{
         margin-top:33px;
         width:420px;
@@ -104,7 +107,7 @@ body {
         font-weight: 300;
         font-size: 18px;
         line-height:30px;
-        margin-top:34px;
+        margin:0px;
     }
     .contact-me-anchor{
         margin-top: 138px;
@@ -112,7 +115,7 @@ body {
     }
     .contact-grid{
         margin:0px;
-        margin-top:180px;
+        margin-top:153px;
         margin-left:519px;
         display: grid;
         grid-template-columns: auto;
@@ -154,7 +157,7 @@ body {
         font-size: 18px;
         line-height:30px; 
         margin: 0;
-        margin-top: 10px;
+        margin-top: 5px;
         max-width: 330px;   
         text-align: left;
     }
@@ -164,8 +167,9 @@ body {
         font-weight: bold;
         font-size: 26px;
         margin: 0;
-        margin-top:55px;
+        margin-top:25px;
         text-align: left;
+        line-height: 0px;
     }
     .owl-carousel-element{
         width:808px;
@@ -190,7 +194,7 @@ body {
         grid-template-columns: auto auto;
     }
     .projects-title{
-        margin-top:160px;
+        margin-top:127px;
     }
     .projects-grid-left-container{
        width:341px;
@@ -207,7 +211,7 @@ body {
         margin-left:127px;
     }
     .about-me-left-container{
-        margin-top:146px;
+        margin-top:115px;
     }
     .about-me-text{
         color:#A9ACA9;
@@ -260,6 +264,15 @@ body {
     }
     .page-nav-bar{
         background-image: url(../images/NavBarPreset.png);
+    }
+    .text-header{
+        font-family: HeaderFont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 62px;
+        color:#FAFFFD;
+        margin:0px;
+        margin-bottom: 57px;
     }
     ::-webkit-scrollbar {
   width: 2px;
