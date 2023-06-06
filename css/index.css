@@ -117,6 +117,7 @@ body {
         margin:0px;
         margin-top:153px;
         margin-left:519px;
+        margin-bottom: 219px;
         display: grid;
         grid-template-columns: auto;
     }
