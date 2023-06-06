@@ -1,3 +1,36 @@
+
+  
+  .wrapper {
+    display: table;
+    position: relative;
+    width:1080px;
+    height:627px;
+  }
+  
+  .playpause {
+    background-image: url("../images/play-button.png");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+  }
+  
+  .playpause {
+    opacity: 1;
+    transition: opacity 400ms;
+  }
+  
+  .playpause[hidden] {
+    opacity: 0;
+    display: block;
+  }
 .centered-text{
     margin-left:367px;
     margin-bottom:211px;
@@ -23,8 +56,8 @@
     margin-top:15px;
     text-align: center;
 }
-.video{
-    margin-left: 213px;
+.video-container{
+    margin-left: 420px;
     margin-bottom:196px;
 }
 .image-right-orientated-image{

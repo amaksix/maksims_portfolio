@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <script src="nav-events.js?v=1"></script>
-  <script src="loader.js"></script>
   <link rel='stylesheet' type='text/css' href='css/loader.css?v=1'>
 
     <body class="body-class">
@@ -56,12 +55,15 @@
           </div>
           
         </div>
-        <div class="video">
-          <video width="1494" height="627" controls>
-          <source src="Videos/JedoxWebDemo.mp4" type="video/mp4">
-          Your browser does not support the video.
-          </video>
-        
+        <div class="video-container">
+          <div class="wrapper" id="wrapper">
+            <video width="1080" height="630" id="vid"  class="video" controls>
+            
+            <source src="Videos/JedoxWebDemo.mp4" type="video/mp4">
+            Your browser does not support the video.
+            </video>
+            <div class="playpause"></div>
+          </div>
         </div>
         <div class="centered-text">
           <p class="centered-text-header">
@@ -98,5 +100,7 @@
     <link rel='stylesheet' type='text/css' href='css/projects-pages.css?=v1'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="Scripts/loader.js"></script>
+    <script src="Scripts/video.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
 </html>
