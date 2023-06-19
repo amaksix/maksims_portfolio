@@ -7,9 +7,7 @@
     width: 920px;
 }
 .image-right-orientated-text-container{
-    display: grid;
-    grid-template-columns: auto;
-    margin-top: 83px;
+    margin-top: 130px;
     height: 284px;
     width:306px;
 }
@@ -25,28 +23,20 @@
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
     font-size: 48px;
-    
-    line-height: 1.67;
     margin: 0px;
-    height: 144px;
+    white-space: nowrap; 
+    line-height: 64px;
 }
 .image-right-orientated-text{
     color:#A9ACA9;
     font-family: 'Manrope', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    line-height: 1.67;
+    line-height: 30px;
     height: 60px;
     margin: 0px;
     margin-top:34px;
     margin-bottom:21px;
-}
-.image-left-orientated-2{
-    margin-bottom: 219px;
-    margin-left: 213px;
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 1402px;
 }
 .image-left-orientated{
     margin-bottom: 196px;
@@ -60,28 +50,18 @@
     width: 920px;
 }
 .image-left-orientated-text-container{
-    display: grid;
-    grid-template-columns: auto;
-    margin-top: 83px;
-    height: 284px;
+    margin-top: 130px;
+    height: 207px;
     width: 306px;
-}
-.image-left-orientated-text-container-2{
-    display: grid;
-    grid-template-columns: auto;
-    margin-top: 83px;
-    height: 284px;
-    width: 328px;
 }
 .image-left-orientated-header{
     color:#FAFFFD;
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
     font-size: 48px;
-    
-    line-height: 1.67;
+    white-space: nowrap; 
+    line-height: 64px;
     margin: 0px;
-    height: 144px;
 }
 .image-left-orientated-text{
     color:#A9ACA9;
@@ -116,6 +96,7 @@
         width: 1920px;
         height: 4243px;
         margin: 0;
+        overflow-x :hidden; 
     }
     .content {
         width: 1920px;
