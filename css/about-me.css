@@ -1,6 +1,18 @@
-.page-header{
-    margin-top: 23px;
-    margin-left: 811px;
+@font-face {
+    font-family: HeaderFont;
+    src: url(../Fonts/Sceageus.otf);
+  }
+.page-header-container{
+    margin-top: -43px;
+    text-align: center;
+    margin-bottom: 86px;
+  }
+  .page-header{
+    font-family: HeaderFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    color: #FAFFFD;
   }
   .page-nav-bar{
     background-image: url(../images/Shared/Nav_Bar.png);
@@ -8,12 +20,13 @@
     .body-class{
         background-image: url(../images/Shared/About_Me_BG.png);
 		background-repeat: no-repeat;
-        width: 1920px;
-        height: 2986px;
+        width: 100%;
+        height: 2900px;
         margin: 0;
+        overflow-x :hidden; 
     }
     .content {
-        width: 1920px;
+        width: 100%;
         height: 2268px;
         padding-top: 118px;
     }
@@ -39,44 +52,40 @@
 .who-am-i-grid{
     display: grid;
     grid-template-columns: auto auto;
-    margin-top: 86px;
+    margin-top: 106px;
     margin-left:327px;
     width:1266px;
 }
 .who-am-i-right-container{
-    padding-top: 165px;
+    padding-top: 200px;
     margin-left: 152px;
 }
 .who-am-i-text-container{
     max-width: 500px;
 }
-.who-am-i-text{
+.text{
     color:#A9ACA9;
     font-family: 'Manrope', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    line-height: 30px;  
+    line-height: 30px;
+    margin: 0px; 
 }
-.who-am-i-header{
+.text-header{
     color:#FAFFFD;
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     font-size: 36px;
     margin:0px;
     text-align: center;
-}
-.who-am-i-icon{
-    margin-left: 182px;
+    line-height: 26px;
+    margin-bottom: 30px;
 }
 .about-my-experience-grid {
     display: grid;
-    grid-template-columns: auto;
     margin-left:367px;
-    margin-top:130px;
+    margin-top:180px;
     width: 1186px;
-}
-.about-my-experience-icon{
-    margin-left: 557px;
 }
 .about-my-experience-header{
     color:#FAFFFD;
@@ -86,13 +95,6 @@
     margin:0px;
     text-align: center;
 }
-.about-my-experience-text{
-    color:#A9ACA9;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;  
-}
 .about-my-experience-text-container{
     max-width: 1186px;
 }
@@ -100,87 +102,24 @@
     display: grid;
     grid-template-columns: auto auto auto;
     margin-left: 213px;
-    margin-top: 137px;
+    margin-top: 180px;
     width: 1600px;
 }
 .about-my-study-grid{
-    display: grid;
-    grid-template-columns: auto;
     width:417px;
-    height:443px;
-}
-.about-my-study-icon{
-    margin-left: 180px;
-}
-.about-my-study-header{
-    color:#FAFFFD;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 500;
-    font-size: 36px;
-    margin:0px;
-    text-align: center;
 }
 .about-my-study-text-container{
     max-width: 417px;
 }
-.about-my-study-text
-{
-    color:#A9ACA9;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-}
+
 .my-skills-grid{
     width:421px;
-    height:533px;
     margin-left: 110px;
-}
-.my-skills-icon{
-    margin-left: 172px;
-}
-.my-skills-header{
-    color:#FAFFFD;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 500;
-    font-size: 36px;
-    margin:0px;
-    
-    margin-top:-4px;
-    text-align: center;
 }
 .my-skills-text-container{
     max-width: 421px;
 }
-.my-skills-text{
-    color:#A9ACA9;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-}
 .languages-grid{
-    display: grid;
-    grid-template-columns: auto;
     width: 237px;
-    height:245px;
     margin-left: 120px;
-}
-.languages-icon{
-    margin-left: 82px;
-}
-.languages-header{
-    color:#FAFFFD;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 500;
-    font-size: 36px;
-    margin:0px;
-    text-align: center;
-}
-.languages-text{
-    color:#A9ACA9;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
 }

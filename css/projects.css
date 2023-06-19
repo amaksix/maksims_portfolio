@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: HeaderFont;
+    src: url(../Fonts/Sceageus.otf);
+  }
 .image-right-orientated-image{
     margin-left: 154px;
     width: 920px;
@@ -20,7 +23,7 @@
 .image-right-orientated-header{
     color:#FAFFFD;
     font-family: 'Manrope', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 48px;
     
     line-height: 1.67;
@@ -73,7 +76,7 @@
 .image-left-orientated-header{
     color:#FAFFFD;
     font-family: 'Manrope', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 48px;
     
     line-height: 1.67;
@@ -92,10 +95,17 @@
     margin-bottom:21px;
 }
 
-.page-header{
-    margin-top: 23px;
-    margin-left: 838px;
+.page-header-container{
+    margin-top: -43px;
+    text-align: center;
     margin-bottom: 86px;
+  }
+  .page-header{
+    font-family: HeaderFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    color: #FAFFFD;
   }
   .page-nav-bar{
     background-image: url(../images/Shared/Nav_Bar.png);

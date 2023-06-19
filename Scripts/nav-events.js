@@ -24,7 +24,7 @@ function openRemoteAssist(){
 	window.location.href="remote-assist.html";
 }
 function contactMe(){
-	window.location.href="https://maksimsportfolio.000webhostapp.com/index.html#contact-me-anchor";
+	window.location.href="index.html#contact-me-anchor-id";
 }
 function openLinkedIn(){
 	window.open(

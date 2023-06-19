@@ -23,7 +23,7 @@ body {
         font-weight: 300;
         font-size: 18px;
         line-height:30px;
-        margin-bottom: 42px;
+        margin-bottom: 35px;
         resize: none;
     }
     .message-input:focus {
@@ -100,7 +100,15 @@ body {
         line-height:30px;
     }
 
-  
+    .contact-me-header{
+        font-family: HeaderFont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 62px;
+        color:#FAFFFD;
+        margin:0px;
+        margin-bottom: 46px;
+    }
     .contact-me-text{
         color:#A9ACA9;
         font-family: 'Manrope', sans-serif;
@@ -108,6 +116,8 @@ body {
         font-size: 18px;
         line-height:30px;
         margin:0px;
+        margin-bottom: 15px;
+        
     }
     .contact-me-anchor{
         margin-top: 138px;
@@ -115,9 +125,9 @@ body {
     }
     .contact-grid{
         margin:0px;
-        margin-top:153px;
+        margin-top:175px;
         margin-left:519px;
-        margin-bottom: 219px;
+        margin-bottom: 210px;
         display: grid;
         grid-template-columns: auto;
     }

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <script src="nav-events.js?v=1"></script>
-  <script src="loader.js"></script>
+  <script src="Scripts/nav-events.js?=v3"></script>
   <link rel='stylesheet' type='text/css' href='css/loader.css?v=1'>
     <body class="body-class">
       <div class="loader"></div>
@@ -11,6 +10,7 @@
       <div class="content">  
         <div class="page-nav-bar">
             <div class="nav-buttons-grid">
+              <div><button class="nav-button" type="text" onclick="backHome()"> Home </button></div>
                 <div class="nav-buttons-left"><button class="nav-button" type="text" onclick="openAboutMe()"> About me </button></div>
                 <div class="nav-buttons-center"> <button class="nav-button" type="text">Projects</button> </div>
                 <div class="nav-buttons-right"> <button class="nav-button" type="text"  onclick="contactMe()">Contact</button> </div>
@@ -23,9 +23,9 @@
             <div class="back-text">BACK</div>
             <div class="directory">Home/Projects</div>
         </div>
-        <div class="page-header">
-          <img src="images/Projects/Projects_Header.png">
-        </div>
+        <div class="page-header-container">
+          <p class="page-header">Projects</p>
+       </div>
 
         <div class="image-left-orientated">
           <div class="image-left-orientated-image">
@@ -40,7 +40,7 @@
                 This was half year project for VR and <br>
                 Realitic Virtual humans.<br>
               </p>
-              <input class="image-left-orientated-button" type="image" src="images/Projects/Read_More_Button.png" onClick="openAggressionTraining()"  onMouseOver="this.src='images/Projects/Read_More_Button_Hover.png'" onMouseOut="this.src='images/Projects/Read_More_Button.png'" >
+              <input class="image-left-orientated-button" type="image" src="images/Projects/Read_More_Button.png?=v1" onClick="openAggressionTraining()"  onMouseOver="this.src='images/Projects/Read_More_Button_Hover.png?=v1'" onMouseOut="this.src='images/Projects/Read_More_Button.png?=v1'" >
           </div>
         </div>
         <div class="image-right-orientated">
@@ -53,7 +53,7 @@
               This was a demo integration <br>
               of Zoom Charts into Jedox.<br>
             </p>
-            <input class="image-right-orientated-button" type="image" src="images/Projects/Read_More_Button.png" onclick="openZoomCharts()"  onMouseOver="this.src='images/Projects/Read_More_Button_Hover.png'" onMouseOut="this.src='images/Projects/Read_More_Button.png'" >
+            <input class="image-right-orientated-button" type="image" src="images/Projects/Read_More_Button.png?=v1" onclick="openZoomCharts()"  onMouseOver="this.src='images/Projects/Read_More_Button_Hover.png?=v1'" onMouseOut="this.src='images/Projects/Read_More_Button.png?=v1'" >
           </div>       
           <div class="image-right-orientated-image">
             <img src="images/Projects/ZoomCharts.png">
@@ -73,7 +73,7 @@
                 This was my first group project in<br>
                 Unity and first 3d project.<br>
               </p>
-              <input class="image-left-orientated-button" type="image" src="images/Projects/Read_More_Button.png" onclick="openSpaceWind()" onMouseOver="this.src='images/Projects/Read_More_Button_Hover.png'" onMouseOut="this.src='images/Projects/Read_More_Button.png'" >
+              <input class="image-left-orientated-button" type="image" src="images/Projects/Read_More_Button.png?=v1" onclick="openSpaceWind()" onMouseOver="this.src='images/Projects/Read_More_Button_Hover.png?=v1'" onMouseOut="this.src='images/Projects/Read_More_Button.png?=v1'" >
           </div>
         </div>
         <div class="image-right-orientated">
@@ -86,7 +86,7 @@
               This is project we did for Oyfo <br>
               museum in Hengelo.<br>
             </p>
-            <input class="image-right-orientated-button" type="image" src="images/Projects/Read_More_Button.png" onclick="openSonarSight()" onMouseOver="this.src='images/Projects/Read_More_Button_Hover.png'" onMouseOut="this.src='images/Projects/Read_More_Button.png'" >
+            <input class="image-right-orientated-button" type="image" src="images/Projects/Read_More_Button.png?=v1" onclick="openSonarSight()" onMouseOver="this.src='images/Projects/Read_More_Button_Hover.png?=v1'" onMouseOut="this.src='images/Projects/Read_More_Button.png?=v1'" >
           </div>       
           <div class="image-right-orientated-image">
             <img src="images/Projects/SonarSight.png">
@@ -106,7 +106,7 @@
                 This was half year project in AR as my<br>
                 minor assignment.<br>
               </p>
-              <input class="image-left-orientated-button" type="image" src="images/Projects/Read_More_Button.png" onclick="openRemoteAssist()" onMouseOver="this.src='images/Projects/Read_More_Button_Hover.png'" onMouseOut="this.src='images/Projects/Read_More_Button.png'" >
+              <input class="image-left-orientated-button" type="image" src="images/Projects/Read_More_Button.png?=v1" onclick="openRemoteAssist()" onMouseOver="this.src='images/Projects/Read_More_Button_Hover.png?=v1'" onMouseOut="this.src='images/Projects/Read_More_Button.png?=v1'" >
           </div>
         </div>
         <div class="footer">
@@ -129,10 +129,11 @@
             </div>
       </div>
     </body>
-    <link rel='stylesheet' type='text/css' href='css/top-nav-bar.css?=v1'>
+    <link rel='stylesheet' type='text/css' href='css/top-nav-bar.css?=v2'>
     <link rel='stylesheet' type='text/css' href='css/footer.css'>
-    <link rel='stylesheet' type='text/css' href='css/projects.css?=v1'>
+    <link rel='stylesheet' type='text/css' href='css/projects.css?=v2'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="Scripts/loader.js?=v1"></script>
 </html>

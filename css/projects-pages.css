@@ -39,7 +39,7 @@
 .centered-text-header{
     color:#FAFFFD;
     font-family: 'Manrope', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 36px; 
     line-height: 1.67;
     margin: 0px;
@@ -81,7 +81,7 @@
 .image-right-orientated-header{
     color:#FAFFFD;
     font-family: 'Manrope', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 36px;
     
     line-height: 1.67;
@@ -132,7 +132,7 @@
 .image-left-orientated-header{
     color:#FAFFFD;
     font-family: 'Manrope', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.67;
     margin: 0px;
@@ -149,10 +149,18 @@
     margin-top:15px;
 }
 
-.page-header{
+.page-header-container{
     margin-top: 32px;
-    margin-left: 628px;
+    text-align: center;
     margin-bottom: 85px;
+  }
+  .page-header{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 85px;
+    color: #FAFFFD;
   }
   .page-nav-bar{
     background-image: url(../images/Shared/Nav_Bar.png);
