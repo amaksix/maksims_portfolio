@@ -260,7 +260,6 @@ body {
        
     }
     .body-class{
-        width: 1920px;
         height: 4550px;
         margin: 0;
     }
@@ -285,22 +284,3 @@ body {
         margin:0px;
         margin-bottom: 57px;
     }
-    ::-webkit-scrollbar {
-  width: 2px;
-  height: 0px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: rgb(29, 30, 24); ; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(64, 64, 64); 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(64, 64, 64); 
-}

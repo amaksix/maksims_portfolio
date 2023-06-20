@@ -6,10 +6,8 @@
     margin-left: 154px;
     width: 920px;
 }
-.image-right-orientated-text-container{
+.text-container{
     margin-top: 130px;
-    height: 284px;
-    width:306px;
 }
 .image-right-orientated{
     margin-bottom: 196px;
@@ -18,25 +16,26 @@
     grid-template-columns: auto auto;
     width: 1380px;
 }
-.image-right-orientated-header{
-    color:#FAFFFD;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    font-size: 48px;
-    margin: 0px;
-    white-space: nowrap; 
-    line-height: 64px;
+.image-header{
+  color:#FAFFFD;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  margin: 0;
+  white-space: nowrap;
 }
-.image-right-orientated-text{
-    color:#A9ACA9;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-    height: 60px;
-    margin: 0px;
-    margin-top:34px;
-    margin-bottom:21px;
+.image-text{
+  color:#A9ACA9;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .image-left-orientated{
     margin-bottom: 196px;
@@ -48,31 +47,6 @@
 .image-left-orientated-image{
     margin-right: 154px;
     width: 920px;
-}
-.image-left-orientated-text-container{
-    margin-top: 130px;
-    height: 207px;
-    width: 306px;
-}
-.image-left-orientated-header{
-    color:#FAFFFD;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    font-size: 48px;
-    white-space: nowrap; 
-    line-height: 64px;
-    margin: 0px;
-}
-.image-left-orientated-text{
-    color:#A9ACA9;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 1.67;
-    height: 60px;
-    margin: 0px;
-    margin-top:34px;
-    margin-bottom:21px;
 }
 
 .page-header-container{
@@ -93,32 +67,12 @@
     .body-class{
         background-image: url(../images/Shared/Projects_Back_Ground.png);
 		background-repeat: no-repeat;
-        width: 1920px;
         height: 4243px;
-        margin: 0;
-        overflow-x :hidden; 
     }
     .content {
         width: 1920px;
         height: 4125px;
         padding-top: 118px;
     }
-::-webkit-scrollbar {
-  width: 2px;
-  height: 0px;
-}
-    /* Track */
-::-webkit-scrollbar-track {
-  background: rgb(29, 30, 24); ; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(64, 64, 64); 
-}
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(64, 64, 64); 
-}
 

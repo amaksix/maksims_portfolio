@@ -38,10 +38,11 @@
 }
 .centered-text-header{
     color:#FAFFFD;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope';
+    font-style: normal;
     font-weight: 700;
-    font-size: 36px; 
-    line-height: 1.67;
+    font-size: 36px;
+    line-height: 26px;
     margin: 0px;
     text-align: center;
 }
@@ -61,15 +62,12 @@
     margin-bottom:196px;
 }
 .image-right-orientated-image{
-    margin-left: 91px;
+    margin-left: 74px;
     width: 920px;
 }
 .image-right-orientated-text-container{
-    display: grid;
-    grid-template-columns: auto;
-    margin-top: 83px;
-    height: 284px;
-    width:500px;
+    width:502px;
+    margin-top: 54px;
 }
 .image-right-orientated{
     margin-bottom: 196px;
@@ -77,33 +75,6 @@
     display: grid;
     grid-template-columns: auto auto;
     width: 1380px;
-}
-.image-right-orientated-header{
-    color:#FAFFFD;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    
-    line-height: 1.67;
-    margin: 0px;
-}
-.image-right-orientated-text{
-    color:#A9ACA9;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 1.67;
-    margin: 0px;
-    margin-bottom:21px;
-    width:500px;
-    margin-top:15px;
-}
-.image-left-orientated-2{
-    margin-bottom: 219px;
-    margin-left: 213px;
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 1402px;
 }
 .image-left-orientated{
     margin-bottom: 196px;
@@ -117,36 +88,27 @@
     width: 920px;
 }
 .image-left-orientated-text-container{
-    display: grid;
-    grid-template-columns: auto;
-    height: 357px;
-    margin-top:40px;
+    margin-top: 54px;
+    width: 419px;
 }
-.image-left-orientated-text-container-2{
-    display: grid;
-    grid-template-columns: auto;
-    margin-top: 83px;
-    height: 284px;
-    width: 328px;
-}
-.image-left-orientated-header{
+.text-header{
     color:#FAFFFD;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope';
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.67;
+    line-height: 26px;
     margin: 0px;
 }
-.image-left-orientated-text{
+.text{
     color:#A9ACA9;
     font-family: 'Manrope', sans-serif;
+    font-style: normal;
     font-weight: 300;
     font-size: 18px;
-    line-height: 1.67;
+    line-height: 30px;
     margin: 0px;
-    margin-bottom:21px;
-    width:420px;
-    margin-top:15px;
+    margin-top:30px;
 }
 
 .page-header-container{
@@ -168,28 +130,8 @@
     .body-class{
         background-color:#1D1E18 ;
         width: 1920px;
-        margin: 0;
     }
     .content {
         width: 1920px;
         padding-top: 118px;
     }
-::-webkit-scrollbar {
-  width: 2px;
-  height: 0px;
-}
-    /* Track */
-::-webkit-scrollbar-track {
-  background: rgb(29, 30, 24); ; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(64, 64, 64); 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(64, 64, 64); 
-}
-
